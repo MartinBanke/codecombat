@@ -53,31 +53,31 @@ module.exports = nativeDescription: "dansk", englishDescription: "Danish", trans
 #    players: "players" # Hover over a level on /play
 #    hours_played: "hours played" # Hover over a level on /play
 #    items: "Items" # Tooltip on item shop button from /play
-#    unlock: "Unlock" # For purchasing items and heroes
-#    confirm: "Confirm"
+    unlock: "Lås op" # For purchasing items and heroes
+    confirm: "Bekræft"
 #    owned: "Owned" # For items you own
-#    locked: "Locked"
+    locked: "Låst"
 #    purchasable: "Purchasable" # For a hero you unlocked but haven't purchased
-#    available: "Available"
+    available: "Tilgængelig"
 #    skills_granted: "Skills Granted" # Property documentation details
 #    heroes: "Heroes" # Tooltip on hero shop button from /play
 #    achievements: "Achievements" # Tooltip on achievement list button from /play
-#    account: "Account" # Tooltip on account button from /play
+    account: "Konto" # Tooltip on account button from /play
 #    settings: "Settings" # Tooltip on settings button from /play
 #    poll: "Poll" # Tooltip on poll button from /play
 #    next: "Next" # Go from choose hero to choose inventory before playing a level
-#    change_hero: "Change Hero" # Go back from choose inventory to choose hero
+    change_hero: "Skift helt" # Go back from choose inventory to choose hero
 #    choose_inventory: "Equip Items"
 #    buy_gems: "Buy Gems"
 #    subscription_required: "Subscription Required"
 #    older_campaigns: "Older Campaigns"
-#    anonymous: "Anonymous Player"
+    anonymous: "Anonym spiller"
     level_difficulty: "Sværhedsgrad: "
     campaign_beginner: "Begynderkampagne"
-#    awaiting_levels_adventurer_prefix: "We release new levels every week."
+    awaiting_levels_adventurer_prefix: "Vi lancerer nye baner hver uge."
 #    awaiting_levels_adventurer: "Sign up as an Adventurer"
 #    awaiting_levels_adventurer_suffix: "to be the first to play new levels."
-#    adjust_volume: "Adjust volume"
+    adjust_volume: "Tilpas lydstyrke"
     choose_your_level: "Vælg Dit Level" # The rest of this section is the old play view at /play-old and isn't very important.
     adventurer_prefix: "Du kan hoppe til et hvilket som helst level herunder, eller diskutere levels på "
     adventurer_forum: "Eventyrer-forummet"
@@ -90,8 +90,8 @@ module.exports = nativeDescription: "dansk", englishDescription: "Danish", trans
     campaign_multiplayer_description: "... hvor du koder ansigt-til-ansigt imod andre spillere."
     campaign_player_created: "Spillerkreerede"
     campaign_player_created_description: "... hvor du kæmper mod dine med-<a href=\"/contribute#artisan\">Kunsthåndværker-troldmænd</a>s kreativitet."
-#    campaign_classic_algorithms: "Classic Algorithms"
-#    campaign_classic_algorithms_description: "... in which you learn the most popular algorithms in Computer Science."
+    campaign_classic_algorithms: "Klassiske algoritmer"
+    campaign_classic_algorithms_description: "... hvor du lærer om de mest populære algoritmer indenfor programmering."
 
 #  share_progress_modal:
 #    blurb: "You’re making great progress! Tell your parent how much you've learned with CodeCombat."
@@ -104,14 +104,14 @@ module.exports = nativeDescription: "dansk", englishDescription: "Danish", trans
   login:
     sign_up: "opret ny konto"
     log_in: "Log Ind"
-#    logging_in: "Logging In"
+    logging_in: "Logger ind"
     log_out: "Log Ud"
-#    forgot_password: "Forgot your password?"
+    forgot_password: "Glemt kodeord?"
 #    authenticate_gplus: "Authenticate G+"
 #    load_profile: "Load G+ Profile"
-#    finishing: "Finishing"
-#    sign_in_with_facebook: "Sign in with Facebook"
-#    sign_in_with_gplus: "Sign in with G+"
+    finishing: "Afslutter"
+    sign_in_with_facebook: "Log ind Facebook"
+    sign_in_with_gplus: "Log ind med G+"
 #    signup_switch: "Want to create an account?"
 
   signup:
@@ -119,9 +119,9 @@ module.exports = nativeDescription: "dansk", englishDescription: "Danish", trans
     creating: "Opretter Konto..."
     sign_up: "Registrer"
     log_in: "Log ind med password"
-#    social_signup: "Or, you can sign up through Facebook or G+:"
-#    required: "You need to log in before you can go that way."
-#    login_switch: "Already have an account?"
+    social_signup: "Eller du kan logge ind med Facebook eller G+:"
+    required: "Du skal logge ind før du kan gå den vej."
+    login_switch: "Har du allerede en konto?"
 
   recover:
     recover_account_title: "genskab konto"
@@ -129,12 +129,12 @@ module.exports = nativeDescription: "dansk", englishDescription: "Danish", trans
 #    recovery_sent: "Recovery email sent."
 
 #  items:
-#    primary: "Primary"
-#    secondary: "Secondary"
-#    armor: "Armor"
-#    accessories: "Accessories"
-#    misc: "Misc"
-#    books: "Books"
+    primary: "Primær"
+    secondary: "Sekundær"
+    armor: "Rustning"
+    accessories: "Tilbehør"
+    misc: "Diverse"
+    books: "Bøger"
 
   common:
 #    back: "Back" # When used as an action verb, like "Navigate backward"
@@ -142,11 +142,11 @@ module.exports = nativeDescription: "dansk", englishDescription: "Danish", trans
     loading: "Henter..."
     saving: "Gemmer..."
     sending: "Sender..."
-#    send: "Send"
+    send: "Send"
     cancel: "Annuller"
     save: "Gem"
-#    publish: "Publish"
-#    create: "Create"
+    publish: "Publiser"
+    create: "Opret"
     manual: "Manual"
     fork: "Forgren"
     play: "Spil" # When used as an action verb, like "Play next level"
@@ -163,21 +163,21 @@ module.exports = nativeDescription: "dansk", englishDescription: "Danish", trans
   general:
     and: "og"
     name: "navn"
-#    date: "Date"
+    date: "Dato"
     body: "krop"
     version: "version"
 #    pending: "Pending"
-#    accepted: "Accepted"
+    accepted: "Accepteret"
 #    rejected: "Rejected"
 #    withdrawn: "Withdrawn"
 #    submitter: "Submitter"
 #    submitted: "Submitted"
     commit_msg: "ændringsnotat"
-#    review: "Review"
-#    version_history: "Version History"
+    review: "Gennemse"
+    version_history: "Versionshistorik"
     version_history_for: "versionhistorie for: "
 #    select_changes: "Select two changes below to see the difference."
-#    undo_prefix: "Undo"
+    undo_prefix: "Fortryd"
 #    undo_shortcut: "(Ctrl+Z)"
 #    redo_prefix: "Redo"
 #    redo_shortcut: "(Ctrl+Shift+Z)"
@@ -186,43 +186,43 @@ module.exports = nativeDescription: "dansk", englishDescription: "Danish", trans
     results: "resultater"
     description: "beskrivelse"
     or: "eller"
-#    subject: "Subject"
+    subject: "Emne"
     email: "e-mail"
-#    password: "Password"
+    password: "Kodeord"
     message: "Besked"
 #    code: "Code"
 #    ladder: "Ladder"
     when: "Når"
-#    opponent: "Opponent"
+    opponent: "Modstander"
     rank: "Rang"
 #    score: "Score"
     win: "Sejr"
     loss: "Tab"
     tie: "Uafgjort"
     easy: "Nem"
-#    medium: "Medium"
+    medium: "Medium"
     hard: "Svær"
-#    player: "Player"
+    player: "Spiller"
 #    player_level: "Level" # Like player level 5, not like level: Dungeons of Kithgard
 #    warrior: "Warrior"
 #    ranger: "Ranger"
 #    wizard: "Wizard"
 
 #  units:
-#    second: "second"
-#    seconds: "seconds"
-#    minute: "minute"
-#    minutes: "minutes"
-#    hour: "hour"
-#    hours: "hours"
-#    day: "day"
-#    days: "days"
-#    week: "week"
-#    weeks: "weeks"
-#    month: "month"
-#    months: "months"
-#    year: "year"
-#    years: "years"
+    second: "sekund"
+    seconds: "sekunder"
+    minute: "minut"
+    minutes: "minutter"
+    hour: "time"
+    hours: "timer"
+    day: "dag"
+    days: "dage"
+    week: "uge"
+    weeks: "uger"
+    month: "måned"
+    months: "måneder"
+    year: "år"
+    years: "år"
 
   play_level:
     done: "Færdig"
@@ -247,14 +247,14 @@ module.exports = nativeDescription: "dansk", englishDescription: "Danish", trans
     reload_title: "Genindlæs alt kode?"
     reload_really: "Er du sikker på at du ønsker at genindlæse denne bane helt fra begyndelsen?"
     reload_confirm: "Genindlæs alt"
-#    victory: "Victory"
+    victory: "Sejr"
 #    victory_title_prefix: ""
     victory_title_suffix: " Færdig"
     victory_sign_up: "Opret dig for at gemme dit fremskridt"
     victory_sign_up_poke: "Ønsker du at gemme din kode? Opret en gratis konto!"
     victory_rate_the_level: "Bedøm denne bane: " # Only in old-style levels.
 #    victory_return_to_ladder: "Return to Ladder"
-#    victory_play_continue: "Continue"
+    victory_play_continue: "Fortsæt"
 #    victory_saving_progress: "Saving Progress"
     victory_go_home: "Gå hjem" # Only in old-style levels.
     victory_review: "Fortæl os mere!" # Only in old-style levels.
